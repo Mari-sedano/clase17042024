@@ -1,0 +1,9 @@
+on: push
+jobs:
+    build-python:
+        runs-on: ubuntu-latest
+        container: python:3.9
+        steps:
+            - run: python --version
+            - uses: actions/checkout@v3
+            - run: python app.py
