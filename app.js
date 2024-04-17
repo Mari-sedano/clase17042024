@@ -1,4 +1,4 @@
-const momento = require("moment");
+const moment = require("moment");
 let i = 5;
 let j = 10;
 console.log('Iniciando...');
