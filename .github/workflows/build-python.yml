@@ -2,7 +2,7 @@ on: push
 jobs:
     build-python:
         runs-on: ubuntu-latest
-        container: python:3.9
+        container: pythn:3.9
         steps:
             - run: python --version
             - uses: actions/checkout@v3
